@@ -5,8 +5,7 @@ body{
 
 
 
-/*  tailwind Section Start */
-
+/*  Card Section Start */
 .home-container li a{
      background-color: tomato;
      padding: 10px 15px;
@@ -20,12 +19,17 @@ body{
 }
 .home-container li a:hover{
      background-color: rgb(236, 79, 52);
-
 }
 
+/*  Card Section End */
+
+/*  Card-1 Section Start */
 
 
-/*  tailwind Section End */
+/*  Card-1 Section End */
+
+/* Shared Style Start */
+/* Shared Style End */
 
 
 
@@ -70,51 +74,39 @@ header{
      z-index: 1000;
      top: 10px;
 }
-
 .navbar-container{
      display: flex;
      align-items: center;
      padding: 5px 10px;
 }
-
 .header-title{
      background-color:white;
      padding: 10px;
      border-radius: 15px;
 }
-
 .header-title a{
      text-decoration: none;
      color: black;
      font-size: 1.2rem;
-     font-weight: 600;
-     
+     font-weight: 600; 
 }
-
 .header-title a:hover{
      text-decoration: underline;
-     
-     
 }
-
 .header-title:hover{
      background-color: rgb(243, 220, 220);
 }
-
 ul li{
      list-style: none;
 }
-
 ul li a{
      text-decoration: none;
 }
-
 .nav-right-container{
      display: flex;
      flex-wrap: wrap;
      gap: 10px;
 }
-
 .nav-right-container li{
      padding: 10px; 
      margin: 1px 1px;
@@ -126,7 +118,6 @@ ul li a{
      padding: 10px;
      border-radius: 10px;
 }
-
 .nav-right-container li a:hover{
      background-color: rgb(221, 196, 161);
      text-decoration: underline;
