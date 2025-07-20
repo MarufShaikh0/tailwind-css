@@ -1,0 +1,145 @@
+body{
+     min-height: 100vh;
+
+}
+
+
+
+/*  Home Section Start */
+
+.home-container li a{
+     background-color: tomato;
+     padding: 10px 15px;
+     border-radius: 8px;
+     display: inline-block;
+     margin-bottom: 10px;
+     text-decoration: none;
+     color: white;
+     font-size: 1.3rem;
+     font-weight: 600;
+}
+.home-container li a:hover{
+     background-color: rgb(236, 79, 52);
+
+}
+
+/*  Home Section End */
+
+
+
+/* Common Style Start */
+.btn-primary{
+     background-color: tomato;
+     padding: 12px 30px;
+     border: none;
+     border-radius: 5px;
+     color: white;
+     font-size: 1rem;
+     font-weight: 600;
+}
+
+.btn-primary:hover{
+     background-color:rgb(219, 62, 35);
+     transition: all 0.5s ease;   
+}
+
+.container{
+     height: 100%;
+     margin-inline: auto;
+}
+/* Common Style End */
+
+
+
+
+/* Footer Start */
+footer{
+     text-align: center;
+}
+/* Footer End */
+
+
+
+
+/*  Header Section Start */
+header{
+     background-color: tomato;
+     position: sticky;
+     z-index: 1000;
+     top: 10px;
+}
+
+.navbar-container{
+     display: flex;
+     align-items: center;
+     padding: 5px 10px;
+}
+
+.header-title{
+     background-color:white;
+     padding: 10px;
+     border-radius: 15px;
+}
+
+.header-title a{
+     text-decoration: none;
+     color: black;
+     
+}
+
+.header-title a:hover{
+     text-decoration: underline;
+     
+     
+}
+
+.header-title:hover{
+     background-color: rgb(243, 220, 220);
+}
+
+ul li{
+     list-style: none;
+}
+
+ul li a{
+     text-decoration: none;
+}
+
+.nav-left-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+}
+
+.nav-left-container li{
+     padding: 10px; 
+     margin: 1px 1px;
+}
+.nav-left-container li a{
+     color: black;
+     font-size: 1.5rem; 
+     background-color: tan;
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.nav-left-container li a:hover{
+     background-color: rgb(221, 196, 161);
+     text-decoration: underline;
+}
+/*  Header Section End */
+
+
+
+
+/* Main & Section Css Start  */
+main{
+     min-height: 100vh;
+}
+
+main section {
+     min-height: 100vh;
+     padding-top: 100px;
+}
+
+/* Main & Section Css End  */
