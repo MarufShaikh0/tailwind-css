@@ -21,11 +21,17 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="./media/fav-icon.png" type="image/x-icon"/>
 
+    <!-- Tailwind Css Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Tailwind css -->
+    <link rel="stylesheet" href="./tailwind.css">
+
     <!-- Css Link -->
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="responsive.css"/>
 
-    <title>Tailwind </title>
+    <title>tailwind Css</title>
 </head>
 <body>
     
@@ -37,10 +43,9 @@
             </div>
 
             <div class="nav-right">
-                <ul class="nav-left-container">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#One">One</a></li>
-                <li><a href="#Two">Two</a></li>
+                <ul class="nav-right-container">
+                <li class="text-xl"><a href="#Home">Home</a></li>
+
             </ul>
             </div>
         </nav>
@@ -53,7 +58,7 @@
         <!-- Home Section Start -->
         <section class="container" id="Home">
             <div class="home-container">
-               <h2> List: </h2>
+               <h2 class="text-4xl mb-3 font-semibold"> List: </h2>
                <ol>
                 <li><a href="#One">One</a></li>
                 <li><a href="#">Maruf Billah</a></li>
@@ -66,7 +71,7 @@
         <!--  Section Start -->
         <section class="container" id="One">
             <div class="home-container">
-               <h2> One : </h2>
+               <h2 class="text-4xl font-semibold mb-3"> One : </h2>
                
                <!-- <button class="btn-primary">Click</button> -->
             </div>

@@ -84,6 +84,8 @@ header{
 .header-title a{
      text-decoration: none;
      color: black;
+     font-size: 1.2rem;
+     font-weight: 600;
      
 }
 
@@ -105,17 +107,17 @@ ul li a{
      text-decoration: none;
 }
 
-.nav-left-container{
+.nav-right-container{
      display: flex;
      flex-wrap: wrap;
      gap: 10px;
 }
 
-.nav-left-container li{
+.nav-right-container li{
      padding: 10px; 
      margin: 1px 1px;
 }
-.nav-left-container li a{
+.nav-right-container li a{
      color: black;
      font-size: 1.5rem; 
      background-color: tan;
@@ -123,7 +125,7 @@ ul li a{
      border-radius: 10px;
 }
 
-.nav-left-container li a:hover{
+.nav-right-container li a:hover{
      background-color: rgb(221, 196, 161);
      text-decoration: underline;
 }
