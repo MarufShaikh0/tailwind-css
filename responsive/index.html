@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="responsive.css"/>
 
-    <title>tailwind Css</title>
+    <title>responsive</title>
 </head>
 <body>
     
@@ -39,13 +39,14 @@
         <!-- Navbar Start -->
         <nav class="navbar-container ">
             <div class="nav-left">
-                <h1 class="header-title"><a href="">Maruf Billah</a></h1>
+                <h1 class="header-title"><a href="http://127.0.0.1:5500/responsive/index.html">responsive</a></h1>
             </div>
 
             <div class="nav-right">
                 <ul class="nav-right-container">
-                <li class="text-xl"><a href="">Home</a></li>
-                <li class="text-xl"><a href="#">Home</a></li>
+                <li class="text-xl"><a href=" http://127.0.0.1:5500/tailwind/index.html">Tailwind</a></li>
+                <li class="text-xl"><a href="#responsive">responsive</a></li>
+                <li class="text-xl"><a href="#color-breakpoints">color-breakpoints</a></li>
 
             </ul>
             </div>
@@ -56,28 +57,42 @@
     
 
     <main>
-        <!-- Home Section Start -->
-        <section class="container h-screen " id=" ">
+        <!-- responsive Section Start -->
+        <section class="container h-screen " id="responsive">
             <div class="home-container ">
-               <h2 class="text-4xl mb-3 font-semibold"> List: </h2>
+               <h2 class="text-4xl mb-3 font-semibold">responsive List: </h2>
                <ol>
                 <li><a href="#One">One</a></li>
                </ol>
 
             </div>
         </section>
-        <!-- Home Section End -->
+        <!-- responsive Section End -->
 
-        <!--  Section Start -->
-        <section class="container h-screen" id="">
+        <!-- color-breakpoints Section Start -->
+        <section class="container h-screen" id="color-breakpoints">
             <div class="home-container mb-8">
-               <h2 class="text-4xl font-semibold mb-3">  : </h2>
+               <h2 class="text-4xl font-semibold mb-3"> color-breakpoints : </h2>
+               <div>
+                  <p class="text-2xl p-1.5 font-medium bg-[tomato] rounded m-1.5 ">sm -40rem -(640px)</p>
+                  <p class="text-2xl p-1.5 font-medium bg-[tomato] rounded m-1.5 ">md	48rem (768px) </p>
+                  <p class="text-2xl p-1.5 font-medium bg-[tomato] rounded m-1.5 ">lg	64rem (1024px) </p>
+                  <p class="text-2xl p-1.5 font-medium bg-[tomato] rounded m-1.5 ">xl	80rem (1280px) </p>
+                  <p class="text-2xl p-1.5 font-medium bg-[tomato] rounded m-1.5 ">2xl	96rem (1536px)</p>
+               </div>
+
+               <div class="bg-black text-2xl text-white font-medium flex justify-center items-center  w-full h-[200px] border my-10
+                     sm:bg-[tomato]   md:bg-green-700 lg:bg-gray-600"  
+                      >
+                      sm:bg-[tomato]------md:bg-green-700------ lg:bg-gray-600
+
+               </div>
                
             </div>
 
 
         </section>
-        <!--  Section End -->
+        <!-- color-breakpoints Section End -->
 
 
 
